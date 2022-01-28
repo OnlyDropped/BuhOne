@@ -955,10 +955,6 @@ a {
   }
 }
 @media (max-width: 375px) {
-  .header {
-    background: #e1e1e1;
-  }
-
   .slider-wrapper .slider-item__info {
     padding-top: 65px;
     padding-bottom: 115px;
@@ -1045,5 +1041,49 @@ a {
   }
   .contact__list-item {
     margin-bottom: 25px;
+  }
+}
+@media (max-width: 320px) {
+  .our-services .text {
+    font-size: 21px;
+    margin-bottom: 30px;
+  }
+  .our-services__item {
+    width: 275px;
+  }
+  .our-services__item-text {
+    bottom: 25px;
+    left: 20px;
+  }
+
+  .about-us__info-title {
+    font-size: 35px;
+  }
+  .about-us__info-text {
+    font-size: 16px;
+  }
+
+  .our-clients .text {
+    font-size: 28px;
+  }
+  .our-clients .slick-dots li button {
+    margin: 0 15px;
+  }
+
+  .reviews__text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 35px;
+  }
+
+  .contact .text {
+    font-size: 37px;
+  }
+  .contact__text {
+    text-align: center;
+  }
+  .contact__btn {
+    padding: 15px 30px;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=style.css.map */

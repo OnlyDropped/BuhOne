@@ -276,9 +276,6 @@
   }
 }
 @media (max-width: 375px) {
-  .header {
-    background: rgb(225, 225, 225);
-  }
   .slider-wrapper .slider-item__info {
     padding-top: 65px;
     padding-bottom: 115px;
@@ -353,8 +350,58 @@
     &__list-item + .contact__list-item {
       margin-left: 0px;
     }
-    &__list-item{
+    &__list-item {
       margin-bottom: 25px;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .our-services {
+    .text {
+      font-size: 21px;
+      margin-bottom: 30px;
+    }
+    &__item {
+      width: 275px;
+    }
+    &__item-text {
+      bottom: 25px;
+      left: 20px;
+    }
+  }
+  .about-us {
+    &__info-title {
+      font-size: 35px;
+    }
+    &__info-text {
+      font-size: 16px;
+    }
+  }
+  .our-clients {
+    .text {
+      font-size: 28px;
+    }
+    .slick-dots li button {
+      margin: 0 15px;
+    }
+  }
+  .reviews {
+    &__text {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 35px;
+    }
+  }
+  .contact {
+    .text {
+      font-size: 37px;
+    }
+    &__text {
+      text-align: center;
+    }
+    &__btn {
+      padding: 15px 30px;
+      margin: 0 auto;
     }
   }
 }
