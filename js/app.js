@@ -16,13 +16,13 @@ $('.slider-wrapper').slick({
         slidesToScroll: 1
       }
     },
-    /*{
-      breakpoint: 480,
+    {
+      breakpoint: 375,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
       }
-    } */
+    }
   ]
 });
 
@@ -48,13 +48,13 @@ $('.our-clients__wrapper').slick({
         slidesToScroll: 1
       }
     },
-    /*{
-      breakpoint: 480,
+    {
+      breakpoint: 376,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
       }
-    } */
+    }
   ]
 
 });

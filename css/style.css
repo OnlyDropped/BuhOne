@@ -953,4 +953,97 @@ a {
   .footer__link {
     text-align: right;
   }
+}
+@media (max-width: 375px) {
+  .header {
+    background: #e1e1e1;
+  }
+
+  .slider-wrapper .slider-item__info {
+    padding-top: 65px;
+    padding-bottom: 115px;
+  }
+
+  .slider-wrapper .slider-item__title {
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+
+  .slider-wrapper .slider-item__btn {
+    padding: 15px 30px;
+  }
+
+  .slider-wrapper .slick-arrow {
+    width: 50px;
+    height: 50px;
+  }
+
+  .slider-wrapper .slick-dots {
+    bottom: 50px;
+  }
+
+  .our-services {
+    padding: 40px 0;
+  }
+  .our-services .text {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .our-services__wrapper {
+    flex-direction: column;
+  }
+  .our-services__item {
+    width: 325px;
+    height: 330px;
+  }
+
+  .about-us {
+    padding: 40px 0;
+  }
+  .about-us .title {
+    margin-bottom: 15px;
+  }
+  .about-us__info-title {
+    font-size: 40px;
+  }
+
+  .our-clients {
+    padding: 40px 0;
+  }
+  .our-clients .title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  .our-clients .text {
+    font-size: 33px;
+    margin-bottom: 15px;
+  }
+
+  .reviews {
+    padding: 40px 0;
+  }
+  .reviews .text {
+    font-size: 28px;
+  }
+  .reviews__text {
+    margin-bottom: 45px;
+  }
+  .reviews__info-name {
+    font-size: 15px;
+  }
+
+  .contact {
+    padding: 40px 0;
+  }
+  .contact__list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .contact__list-item + .contact__list-item {
+    margin-left: 0px;
+  }
+  .contact__list-item {
+    margin-bottom: 25px;
+  }
 }/*# sourceMappingURL=style.css.map */
